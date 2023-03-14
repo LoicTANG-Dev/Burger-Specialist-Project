@@ -27,7 +27,7 @@ namespace BugerSpecialistAPI.Models
         }
     }
 
-    public class CommentWorkItem: WorkItem
+    public class CommentWorkItem : WorkItem
     {
         public bool SaveFile(object[] input)
         {
@@ -108,8 +108,9 @@ namespace BugerSpecialistAPI.Models
                     break;
                 }
                 tryCount++;
+                Thread.Sleep(100);
             }
-            if(tryCount>=10)
+            if (tryCount >= 10)
             {
                 throw new Exception("Error");
             }
