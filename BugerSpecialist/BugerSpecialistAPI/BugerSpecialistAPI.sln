@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33403.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugerSpecialistAPI", "BugerSpecialistAPI\BugerSpecialistAPI.csproj", "{3CBE58B8-432F-43A5-90C4-A60C4316AC6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockFunction", "MockFunction\MockFunction.csproj", "{FABA2ADE-6940-4EDC-9096-1D0C9D21F617}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CBE58B8-432F-43A5-90C4-A60C4316AC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBE58B8-432F-43A5-90C4-A60C4316AC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBE58B8-432F-43A5-90C4-A60C4316AC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBE58B8-432F-43A5-90C4-A60C4316AC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FABA2ADE-6940-4EDC-9096-1D0C9D21F617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABA2ADE-6940-4EDC-9096-1D0C9D21F617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABA2ADE-6940-4EDC-9096-1D0C9D21F617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABA2ADE-6940-4EDC-9096-1D0C9D21F617}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DA4F306-11C3-4B66-8E15-DC79515778D3}
+	EndGlobalSection
+EndGlobal
